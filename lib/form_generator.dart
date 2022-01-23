@@ -141,7 +141,7 @@ class _FormBuilderState extends State<FormBuilder> {
                   }
                 });
                 setState(() {});
-                print('final response of form  ==> $errors');
+                print('final response of form  ==> $result');
               },
               child: Text('Submit'),
             ),
